@@ -1,6 +1,18 @@
 #!/bin/bash
 set -e
 
+PORT=6060
+
+# Check if port is in use
+if lsof -i :$PORT >/dev/null 2>&1; then
+    echo "Port $PORT is already in use. Killing process using it..."
+    PID=$(lsof -t -i :$PORT)
+    echo "Killing PID: $PID"
+    kill -9 $PID
+    sleep 1
+fi
+
+
 VENV_DIR="venv"
 
 command_exists() {
