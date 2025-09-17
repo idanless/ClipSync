@@ -2,7 +2,7 @@
 
 Clipboard sync between devices
 
-## 1️Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/idanless/ClipSync.git
