@@ -2,7 +2,7 @@
 set -e
 
 # URL של הפרויקט
-REPO_URL="https://github.com/idanless/ClipSync.git"
+#REPO_URL="https://github.com/idanless/ClipSync.git"
 PROJECT_DIR="ClipSync"
 VENV_DIR="$PROJECT_DIR/venv"
 
