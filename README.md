@@ -18,7 +18,7 @@ sudo ./run_clipsync.sh server
 
 ## 3️ Connect Windows Client
 
-1. Open Windows client
+1. Open Windows client under ClipSync/releases
 2. Enter your server IP address
 3. Connect
 
