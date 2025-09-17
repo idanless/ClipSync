@@ -12,6 +12,7 @@ cd ClipSync
 ## 2️⃣ Run Server
 
 ```bash
+chmod +x run_clipsync.sh
 sudo ./run_clipsync.sh
 ```
 
