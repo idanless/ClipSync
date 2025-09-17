@@ -13,7 +13,7 @@ cd ClipSync
 
 ```bash
 chmod +x run_clipsync.sh
-sudo ./run_clipsync.sh
+sudo ./run_clipsync.sh server
 ```
 
 ## 3️ Connect Windows Client
